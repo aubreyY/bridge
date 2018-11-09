@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>regisiter</title>
+    <link rel="stylesheet" href="static/css/reset.css">
+    <link rel="stylesheet" href="static/css/regisiter.css">
+    <link rel="stylesheet" href="static/css/swiper.css">
+    <link rel="stylesheet" href="static/css/bootstrapValidator.min.css" />
+    <link rel="stylesheet" href="static/css/bootstrap.min.css" />
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/bootstrapValidator.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/swiper.min.js"></script>
+    <script src="static/js/layui/layer.js"></script>
+</head>
+
+<body>
+    <!-- The container -->
+    <div id="loadgif">
+        <img src="static/img/ling.gif" />
+    </div>
+    <div class="regisiter">
+        <!-- The regisiter list -->
+        <div class="regisiter_list">
+            <!-- The user -->
+            <div class="regisiter_user">
+                <div class="regisiter_name">
+                    <img src="static/img/geo.png">
+                </div>
+                <span>Powered byUbiPOS</span>
+            </div>
+            <div class="regisiter_font">
+                <p>Regisiter</p>
+            </div>
+
+            <!-- The form container -->
+            <form id="form_test" role="form" class="form-group" class="form-horizontal" onsubmit="return false;">
+                <div class="swiper-container swiper-no-swiping" style="height:550px;">
+                    <div class="swiper-wrapper">
+
+                        <!-- The Check box -->
+                        <div class="swiper-slide">
+                            <div class="check_box">
+                                <div class='radio-check1'>
+                                    <label for="sFigure" class>PUBLIC ACCOUNT</label>
+                                    <input type='radio' name='test' id='test1' checked="checked" />
+                                </div>
+                                <div class='radio-check'>
+                                    <label for="sFigure" class>RESEARCHER ACCOUNT</label>
+                                    <input type='radio' name='test' id='test2' />
+                                </div>
+                                <div class='radio-check'>
+                                    <label for="sFigure" class>BRIDGE ENGINEER</label>
+                                    <input type='radio' name='test' id='test3' />
+                                </div>
+                            </div>
+                        </div>
+                        <!-- The form 1-->
+                        <div class="swiper-slide">
+                            <div class="regisiter_int">
+
+                                <div class="form-group regisiter_tab1">
+                                    <label for="firstName" class="font_p1">FIRST NAME*</label>
+                                    <div class="col-xs-11">
+                                        <input name="firstName" type="text" class="form-control input-sm" id="firstName">
+                                    </div>
+                                </div>
+
+                                <div class="form-group regisiter_tab1">
+                                    <label for="lastName" class="font_p1">LAST NAME*</label>
+                                    <div class="col-xs-11">
+                                        <input name="lastName" type="text" class="form-control input-sm" id="lastName">
+                                    </div>
+                                </div>
+
+                                <div class="form-group regisiter_tab1">
+                                    <label for="email" class="font_p1">EMAIL ADDRESS*</label>
+                                    <div class="col-xs-11">
+                                        <input name="email" type="text" class="form-control input-sm" id="email">
+                                    </div>
+                                </div>
+
+                                <div class="form-group regisiter_tab1">
+                                    <label for="organisation" class="font_p1">ORGANISATION NAME*</label>
+                                    <div class="col-xs-11">
+                                        <input name="organisation" type="text" class="form-control input-sm" id="organisation">
+                                    </div>
+                                </div>
+
+                                <div class="form-group regisiter_tab1">
+                                    <label for="phone" class="font_p1">CONTACT NUMBER*</label>
+                                    <div class="col-xs-11">
+                                        <input name="phone" type="text" class="form-control input-sm" id="phone">
+                                    </div>
+                                </div>
+
+                                <!--</div>-->
+                            </div>
+                        </div>
+                        <!-- The form 2 -->
+                        <div class="swiper-slide">
+                            <div class="form2">
+
+                                <div class="form-group regisiter_tab2">
+                                    <label for="password" class="font_p2">CHOOSE A PASSWORD*</label>
+                                    <div class="col-xs-11">
+                                        <input name="password" type="password" class="form-control input-sm" id="password">
+                                    </div>
+                                </div>
+
+                                <div class="form-group regisiter_tab2" style="margin-top: 45px;">
+                                    <label for="verifypassword" class="font_p2">VERIFY PASSWORD*</label>
+                                    <div class="col-xs-11">
+                                        <input name="verifypassword" type="password" class="form-control input-sm" id="verifypassword">
+                                    </div>
+                                </div>
+
+                                <div class="form-group regisiter_tab2" style="margin-top: 45px;">
+                                    <label for="VerificationCode" class="font_p2">Graphic Verification Code*</label>
+                                    <div class="col-xs-11">
+                                        <input name="VerificationCode" type="tel" class="form-control input-sm" id="VerificationCode">
+                                        <span>
+											<input type="text" id="checkNode" class="code" disabled="disabled">
+											<a href="#" class="next" style="margin-left: 20px;">Next verification code</a>
+										</span>
+                                    </div>
+                                </div>
+
+                                <button type="submit" id="sub" class="sub_code">SUBMIT</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- The prev or next button -->
+                    <div class="swiper-button-prev">
+                        <img src="static/img/btn2.png">
+                    </div>
+                    <div class="swiper-button-next">
+                        <img src="static/img/btn1.png">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+        <!-- The title -->
+        <p class="regisiter_tit">Copyright UbiPOS UK Ltd 2018</p>
+    </div>
+    <!-- The background img -->
+    <div class="regisiter_bg">
+        <img src="static/img/bg.png">
+    </div>
+</body>
+<script src="static/js/regisiter.js"></script>
+
+<script src="static/js/SHA256.js"></script>
+
+</html>

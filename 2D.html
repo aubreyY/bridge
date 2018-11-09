@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>REAL-TIME DATA</title>
+	<link rel="stylesheet" href="static/css/reset.css">
+	<link rel="stylesheet" href="static/css/2D.css">
+	<link rel="stylesheet" href="static/css/swiper.css">
+	<script src="static/js/jquery-1.8.3.min.js"></script>
+	<script src="static/js/highcharts.js"></script>
+	<script src="static/js/highcharts-more.js"></script>
+	<script src="static/js/solid-gauge.js"></script>
+	<script src="static/js/exporting.js"></script>
+	<script src="static/js/highcharts-zh_CN.js"></script>
+	<script src="static/js/oldie.js"></script>
+	<script src="static/js/windbarb.js"></script>
+</head>
+
+<body onselectstart="return false">
+	<!-- The nav -->
+	<nav>
+		<div class="nav">
+			<div class="nav_left">
+				<a href="me.html" class="me_name"></a>
+			</div>
+			<ul class="nav_right">
+				<a href="2D.html">
+					<li style="border-bottom: 4px solid #fff;">REAL-TIME DATA</li>
+				</a>
+				<a href="data.html">
+					<li>HISTORICAL DATA</li>
+				</a>
+				<a href="real.html">
+					<li>REAL TIMEWARNNG</li>
+				</a>
+				<a href="baseline.html">
+					<li>BASELINE THRESHOLD</li>
+				</a>
+				<a href="event.html">
+					<li>EXTREME EVENT INFORMATION</li>
+				</a>
+				<a href="weather.html">
+					<li>WEATHER FORECAST</li>
+				</a>
+				<a href="map.html">
+					<li>INSAR</li>
+				</a>
+				<a href="report.html">
+					<li>REPORT</li>
+				</a>
+				<a href="datadownload.html">
+					<li>DATADOWNLOAD</li>
+				</a>
+			</ul>
+		</div>
+	</nav>
+	<!-- The main -->
+	<main style="background:#EDEDED;">
+		<div id="select_tab">
+			<div id="select_div">
+				<div class="data_list_add_cont_tit">
+					<div class="sort">
+						<div id="select_exit" class="sort_btn">
+							<img src="static/img/chart_exit_white.png" />
+						</div>
+						<div id="sort_id" class="sort_btn">
+							<img src="static/img/sort_1.png" />
+						</div>
+					</div>
+					<span>PLEASE CHOOSE SENSORS TO ADD REALTIME DASHBOARD</span>
+				</div>
+				<div class="data_list_add_cont_lis">
+					<ul id="tableid" class="table">
+					</ul>
+				</div>
+				<div class="table_bot_btn" id="addBtn_ex">
+					<span>
+						<img src="static/img/sub_btn.png" />
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="map">
+			<img src="static/img/gg_map1.jpg">
+		</div>
+
+		<div id="data_list">
+			<a href="#addBtn_ex">
+				<div class="data_list_add" id="addBtn">
+					<span>
+						<img src="static/img/add.png" />
+					</span>
+				</div>
+			</a>
+			<div class="data_list_add_cont" id="add_menu">
+			</div>
+		</div>
+		<div class="botton_nav">
+			<div class="botton_nav_img">
+				<img src="static/img/botton.png">
+			</div>
+			<ul>
+				<a href="">
+					<li class="botton_nav_li_01">
+						<div class="botton_rod_01"></div>
+						<span>GNSS</span>
+					</li>
+				</a>
+				<a href="">
+					<li class="botton_nav_li">
+						<div class="botton_rod_02"></div>
+						<span>Accelerometer</span>
+					</li>
+				</a>
+				<a href="">
+					<li class="botton_nav_li">
+						<div class="botton_rod_03"></div>
+						<span>Anemometer</span>
+					</li>
+				</a>
+				<a href="">
+					<li class="botton_nav_li">
+						<div class="botton_rod_04"></div>
+						<span>Thermometer</span>
+					</li>
+				</a>
+			</ul>
+			<div class="botton_exit">
+				<img src="static/img/bot_exit.png">
+			</div>
+		</div>
+	</main>
+	<!-- The footer -->
+	<footer>
+		<div class="footer">
+			<div class="footer_left">
+				<p>GEOSHM</p>
+				<p>Developed by UbiPOS UK Ltd, Nottingham</p>
+			</div>
+			<div class="footer_right"></div>
+		</div>
+	</footer>
+</body>
+<script src="static/js/2D.js"></script>
+<script src="static/js/swiper.min.js"></script>
+
+</html>

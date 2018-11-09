@@ -1,0 +1,314 @@
+/*regisiter html*/
+
+* {
+    font-family: "Arial";
+}
+
+html {
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+
+html::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+/*The container*/
+
+#loadgif {
+    width: 90px;
+    height: 90px;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999999;
+    display: none;
+}
+
+.regisiter {
+    width: 595px;
+    height: 973px;
+    background: #E7E7E7;
+    position: relative;
+    z-index: 999;
+}
+
+
+/*The regisiter list*/
+
+.regisiter_list {
+    width: 450px;
+    height: 700px;
+    background: #E7E7E7;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/*The user*/
+
+.regisiter_user {
+    width: 400px;
+    height: 80px;
+    background: #E7E7E7;
+}
+
+.regisiter_name {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.regisiter img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.regisiter_user span {
+    float: left;
+    position: relative;
+    bottom: -60px;
+    left: 10px;
+    font-size: 14px;
+    color: #999;
+}
+
+.regisiter_font {
+    margin-top: 8%;
+    font-size: 40px;
+    font-weight: bold;
+    color: #00A6FF;
+}
+
+.regisiter_int {
+    width: 450px;
+    height: 350px;
+    margin-top: -30px;
+}
+
+
+/*The Check box*/
+
+.check_box {
+    width: 400px;
+    height: 240px;
+    background: #E9E9E9;
+    position: relative;
+    top: 90px;
+}
+
+.radio-check1 {
+    width: 400px;
+    height: auto;
+    font-size: 19px;
+    font-weight: bold;
+    color: #999;
+    float: left;
+}
+
+.radio-check1 input {
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+.radio-check {
+    width: 400px;
+    height: auto;
+    font-size: 18px;
+    font-weight: bold;
+    color: #999;
+    float: left;
+    margin-top: 20px;
+}
+
+.radio-check input {
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+
+/*The Form1*/
+
+.font_p1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #999;
+}
+
+.regisiter_tab1 {
+    height: 55px;
+    margin-top: 27px;
+}
+
+.regisiter_tab1 input {
+    width: 390px;
+    height: 30px;
+    background: transparent;
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-bottom-color: #999;
+    border-left-width: 0px;
+    margin-top: 2px;
+    margin-left: -15px;
+}
+
+
+/*The Form2*/
+
+.form2 {
+    width: 450px;
+    height: auto;
+    background: #E7E7E7;
+    margin: 0 auto;
+    position: relative;
+    /*margin-top: -34px;*/
+}
+
+.font_p2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #999;
+}
+
+.regisiter_tab2 {
+    height: 55px;
+}
+
+.regisiter_tab2 input {
+    width: 390px;
+    height: 30px;
+    background: transparent;
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 1px;
+    border-bottom-color: #999;
+    border-left-width: 0px;
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+.cavs {
+    display: block;
+    /* margin-left: -15px; */
+    /* margin-top: 10px; */
+}
+
+#checkNode {
+    width: 120px;
+    height: 40px;
+    background: #ccc;
+    font-family: Arial;
+    font-style: italic;
+    color: black;
+    border: 0;
+    padding: 2px 3px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+/*The Submit Button*/
+
+#sub {
+    width: 390px;
+    height: 55px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    margin-top: 42px;
+    background: #14A7FA;
+    cursor: pointer;
+    border-color: #00A6FF;
+    color: #00A6FF;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFF;
+    margin-top: 25px;
+}
+
+.email .errorC {
+    border: 1px solid red;
+}
+
+.checkedN {
+    border: 1px solid #1ece6d;
+}
+
+
+/*The text*/
+
+.regisiter_text {
+    width: 450px;
+    height: auto;
+    background: #E7E7E7;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+
+.regisiter_text1,
+.regisiter_text2 p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #999;
+}
+
+.regisiter_text2 p {
+    margin-top: 25px;
+    font-size: 17px;
+}
+
+.exit_btn {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    margin-top: 20px;
+    float: right;
+}
+
+.exit_btn img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+/*The Title*/
+
+.regisiter_tit {
+    width: 360px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-left: 170px;
+    font-size: 16px;
+    color: #999;
+    margin-top: 10%;
+}
+
+
+/*The background img*/
+
+.regisiter_bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 46%;
+    width: 69%;
+    height: 973px;
+}
+
+.regisiter_bg img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}

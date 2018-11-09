@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>REPORT</title>
+		<link rel="stylesheet" href="static/css/reset.css">
+		<link rel="stylesheet" href="static/css/report.css">
+		<script src="static/js/jquery-1.8.3.min.js"></script>
+		<script src="static/laydate/laydate.js"></script>
+
+		<style>
+			html,body{ height:100%;}
+			body,div{ margin:0; padding:0;}
+		</style>
+	</head>
+
+	<body style="overflow-x:hidden;overflow-y:hidden;">
+		<!-- The nav -->
+		<nav>
+			<div class="nav">
+				<div class="nav_left">
+					<a href="me.html" class="me_name"></a>
+				</div>
+				<ul class="nav_right">
+					<a href="2D.html">
+						<li>REAL-TIME DATA</li>
+					</a>
+					<a href="data.html">
+						<li>HISTORICAL DATA</li>
+					</a>
+					<a href="real.html">
+						<li>REAL TIMEWARNNG</li>
+					</a>
+					<a href="baseline.html">
+						<li>BASELINE THRESHOLD</li>
+					</a>
+					<a href="event.html">
+						<li>EXTREME EVENT INFORMATION</li>
+					</a>
+					<a href="weather.html">
+						<li>WEATHER FORECAST</li>
+					</a>
+					<a href="map.html">
+						<li>INSAR</li>
+					</a>
+					<a href="report.html">
+						<li style="border-bottom: 4px solid #fff;">REPORT</li>
+					</a>
+					<a href="datadownload.html">
+						<li>DATADOWNLOAD</li>
+					</a>
+				</ul>
+			</div>
+			<!--The main-->
+			<marin>
+				<div id="loadgif">
+					<img src="static/img/ling.gif" />
+				</div>
+				<!--Download-->
+				<div class="download_wrp">
+					<img src="static/img/download_bg.jpg" />
+					<div class="download_tab">
+						<div class="download_tab_tit"><span>DOWNLOAD THE REPORT</span></div>
+						<div class="download_time">
+                            <ul class="data_opt_ul_ck" id="data_opt1">
+								<li id="data_opt_ul_ck0">
+									<input type="radio" name="time" id="monthlyid" value="" />
+									<span>Monthly Report</span>
+								</li>
+								<li id="data_opt_ul_ck1">
+									<input type="radio" name="time" checked = "checked" id="anytimeid" value="" />
+									<span>Anytime Report</span>
+								</li>
+							</ul>
+							<span class="download_time_t1">Data</span>
+							<div class="download_time_int">
+								<div class="download_time_int1" id="fromtimediv">
+									<input type="text" class="demo-input" placeholder="From" id="fromtime">
+									<div class="download_time_img"></div>
+								</div>
+								<div class="download_time_int2" id="totimediv">
+									<input type="text" class="demo-input" placeholder="To" id="totime">
+									<div class="download_time_img"></div>
+								</div>
+								<span class="time_f">-</span>
+							</div>
+							<div class="download_date_int">
+								<div class="download_date_int1" id="monthdiv">
+									<input type="text" class="demo-input" placeholder="year-month" id="reportmonth">
+									<div class="download_time_img"></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="download_btn" id="download">
+							<span>DOWNLOAD</span>
+						</div>
+					</div>
+				</div>
+				<!--<div class="test">
+					<h1>测试接口页面</h1>
+					<input type="button" id="test1" value="下载1" />
+					<input type="button" id="test2" value="下载2" />
+				</div>-->
+			</marin>
+			<!-- The footer -->
+			<footer>
+				<div class="footer">
+					<div class="footer_left">
+						<p>GEOSHM</p>
+						<p>Developed by UbiPOS UK Ltd, Nottingham</p>
+					</div>
+					<div class="footer_right"></div>
+				</div>
+			</footer>
+	</body>
+	<script src="static/js/report.js"></script>
+
+</html>

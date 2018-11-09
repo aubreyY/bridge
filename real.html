@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>REAL TIMEWARNNG</title>
+		<link rel="stylesheet" href="static/css/reset.css">
+		<link rel="stylesheet" href="static/css/real.css">
+		<script src="static/js/jquery-1.8.3.min.js"></script>
+		<script src="static/js/highcharts.js"></script>
+		<script src="static/js/boost.js"></script>
+		<script src="static/js/exporting.js"></script>
+		<script src="static/js/highcharts-zh_CN.js"></script>
+	</head>
+
+	<body>
+		<!-- The nav -->
+		<nav>
+			<div class="nav">
+				<div class="nav_left">
+					<a href="me.html" class="me_name"></a>
+				</div>
+				<ul class="nav_right">
+					<a href="2D.html">
+						<li>REAL-TIME DATA</li>
+					</a>
+					<a href="data.html">
+						<li>HISTORICAL DATA</li>
+					</a>
+					<a href="real.html">
+						<li style="border-bottom: 4px solid #fff;">REAL TIMEWARNNG</li>
+					</a>
+					<a href="baseline.html">
+						<li>BASELINE THRESHOLD</li>
+					</a>
+					<a href="event.html">
+						<li>EXTREME EVENT INFORMATION</li>
+					</a>
+					<a href="weather.html">
+						<li>WEATHER FORECAST</li>
+					</a>
+					<a href="map.html">
+						<li>INSAR</li>
+					</a>
+					<a href="report.html">
+						<li>REPORT</li>
+					</a>
+					<a href="datadownload.html">
+						<li>DATADOWNLOAD</li>
+					</a>
+				</ul>
+			</div>
+		</nav>
+		<!--The main-->
+		<marin>
+			<div class="menu_nav">
+				<ul class="menu_title">
+					<li>
+						<span class="sp_tit">General Health Data</span>
+						<span class="sp_tit1" style="margin-right: 80px;">GOOD</span>
+					</li>
+					<li>
+						<span class="sp_tit">Wind Speed To Mid Span Deformation</span>
+						<span class="sp_tit2">RISKY</span>
+					</li>
+					<li>
+						<span class="sp_tit">Combined Frequency Value</span>
+						<span class="sp_tit3">NORMAL</span>
+					</li>
+				</ul>
+			</div>
+			<div class="menu_time">
+				<div class="menu_time_1">
+					<span>Last Runing Time:</span>
+					<input id="lastid" type="text" class="demo-input">
+				</div>
+				<div class="menu_time_1" style="margin-left: 30px;">
+					<span>Next Runing Time:</span>
+					<input id="nextid" type="text" class="demo-input">
+				</div>
+				<div class="pau_btn">
+					<span id="monitor">Start to Monitor</span>
+				</div>
+			</div>
+			<div class="menu_tab1" id="container_1">
+			</div>
+			<div class="menu_tab2" id="container_2">
+			</div>
+		</marin>
+		<!-- The footer -->
+		<footer>
+			<div class="footer">
+				<div class="footer_left">
+					<p>GEOSHM</p>
+					<p>Developed by UbiPOS UK Ltd, Nottingham</p>
+				</div>
+				<div class="footer_right"></div>
+			</div>
+		</footer>
+	</body>
+	<script src="static/js/real.js"></script>
+
+</html>

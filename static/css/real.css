@@ -1,0 +1,205 @@
+/*real html*/
+
+* {
+	font-family: "Arial";
+}
+
+html {
+	-ms-overflow-style: none;
+	overflow: -moz-scrollbars-none;
+}
+
+html::-webkit-scrollbar {
+	width: 0px;
+}
+/*The nav*/
+
+.nav {
+	width: 100%;
+	height: 60px;
+	background: #019FE9;
+	position: fixed;
+	z-index: 100;
+}
+
+.nav_left {
+	width: 100px;
+	height: 60px;
+	line-height: 50px;
+	float: left;
+}
+
+.nav_left a p {
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+    margin-top: 4px;
+    margin-left: 10px;
+    font-weight: bold;
+    overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+
+.nav_right {
+	width: 92%;
+	height: 60px;
+	float: right;
+	line-height: 60px;
+	background: #019FE9;
+}
+
+.nav_right li {
+	float: left;
+	height: 56px;
+	margin-left: 12px;
+	font-size: 14px;
+	color: #fff;
+}
+
+
+/*The main*/
+
+.menu_nav{
+	width: 100%;
+	height: 60px;
+	background: #e6e6e6;
+	float: left;
+    position: relative;
+    top: 60px;
+}
+.menu_title{
+	width: 85%;
+	height: 60px;
+	margin: 0 auto;
+	/*background: red;*/
+}
+.menu_title li{
+	width: 400px;
+	font-size: 16px;
+	line-height: 60px;
+	text-align: center;
+	float: left;
+	margin-left: -18px;
+}
+.sp_tit{
+	display: block;
+	float: left;
+	color: #000;
+}
+.sp_tit1{
+	display: block;
+	float: right;
+	font-weight: bold;
+	color: #469654;
+}
+.sp_tit2{
+	display: block;
+	float: right;
+	font-weight: bold;
+	color: #CB2323;
+	margin-right: 35px;
+}
+.sp_tit3{
+	display: block;
+	float: right;
+	font-weight: bold;
+	color: #429451;
+}
+.menu_time{
+	width: 100%;
+	height: 60px;
+	background: #f5f5f5;
+    float: left;
+    position: relative;
+    top: 60px;
+}
+.menu_time_1{
+	width: 325px;
+	height: 60px;
+	line-height: 60px;
+	float: left;
+	margin-left: 130px;
+}
+.menu_time_1 input{
+	background: #f5f5f5;
+	border:1px solid #BDBDBD;
+	border-radius: 4px;
+	height: 38px;
+	width: 200px;
+	font-size: 16px;
+}
+.pau_btn{
+	width: 138px;
+	height: 38px;
+	background: #01A6FF;
+	float: left;
+	margin-top: 11px;
+	margin-left: 74px;
+	border-radius: 25px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 38px;
+	color: #fff;
+	font-size: 14px;
+}
+.menu_tab1{
+  	width: 46%;
+    height: 618px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-shadow: 0px 0px 0px 15px #F5F5F5;
+    border: 1px solid #B7B7B7;
+    float: left;
+    position: relative;
+    top: 60px;
+}
+.menu_tab2{
+	width: 46%;
+	height: 618px;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-shadow: 0px 0px 0px 15px #F5F5F5;
+    border: 1px solid #B7B7B7;
+    float: right;
+    position: relative;
+    top: 60px;
+}
+
+/*The footer*/
+
+.footer {
+	width: 100%;
+	height: 100px;
+	position: relative;
+	z-index: 999;
+	background: #EDEDED;
+	float: left;
+	top: 70px;
+}
+
+.footer_left {
+	width: 320px;
+	height: 60px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+.footer_left p {
+	color: #A8A7A4;
+	font-size: 17px;
+}
+
+.footer_right {
+	width: 150px;
+	height: 90px;
+	float: right;
+	margin-right: 17px;
+	background-image: url(../img/geo.png);
+	background-repeat: no-repeat;
+	background-size: 150px 90px;
+}

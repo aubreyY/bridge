@@ -1,0 +1,268 @@
+/*baseline html*/
+
+* {
+	font-family: "Arial";
+}
+
+html {
+	-ms-overflow-style: none;
+	overflow: -moz-scrollbars-none;
+}
+
+html::-webkit-scrollbar {
+	width: 0px;
+}
+
+
+/*The nav*/
+
+.nav {
+	width: 100%;
+	height: 60px;
+	background: #019FE9;
+	position: fixed;
+	z-index: 100;
+}
+
+.nav_left {
+	width: 100px;
+	height: 60px;
+	line-height: 50px;
+	float: left;
+}
+
+.nav_left a p {
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	margin-top: 4px;
+	margin-left: 10px;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+
+.nav_right {
+	width: 92%;
+	height: 60px;
+	float: right;
+	line-height: 60px;
+	background: #019FE9;
+}
+
+.nav_right li {
+	float: left;
+	height: 56px;
+	margin-left: 12px;
+	font-size: 14px;
+	color: #fff;
+}
+
+
+/*The main*/
+
+.menu_time {
+	width: 100%;
+	height: 60px;
+	background: #f5f5f5;
+    position: relative;
+    top: 60px;
+}
+
+.menu_time_1 {
+	width: 251px;
+	height: 60px;
+	line-height: 60px;
+	float: left;
+	margin-left: 30px;
+}
+
+.menu_time_1 span {
+	display: block;
+	float: left;
+}
+
+.menu_int input {
+	background: #f5f5f5;
+	border: none;
+	height: 38px;
+	width: 160px;
+	font-size: 14px;
+	float: left;
+	cursor: pointer;
+}
+
+.menu_int {
+	width: 190px;
+	height: 38px;
+	border: 1px solid #BDBDBD;
+	border-radius: 4px;
+	float: left;
+	margin-left: 15px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.data_opt_date_img {
+	width: 16px;
+	height: 16px;
+	background-image: url(../img/date.png);
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.menu_fh {
+	display: block;
+	float: left;
+	font-size: 18px;
+	line-height: 60px;
+}
+
+.pau_btn {
+	width: 90px;
+	height: 38px;
+	background: #02A5FF;
+	float: left;
+	margin-top: 11px;
+	margin-left: 45px;
+	border-radius: 25px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 38px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.menu_tab {
+	width: 97%;
+	height: 800px;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	box-shadow: 0px 0px 0px 15px #F5F5F5;
+	position: relative;
+    top: 60px;
+}
+
+table {
+	font-size: 14px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.menu_tab table tr th {
+	width: 11%;
+	height: 50px;
+	text-align: center;
+	background: #787F99;
+}
+
+.tab_td {
+	width: 10%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #404142;
+	cursor: pointer;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+
+.tab_tr:hover {
+	background: #ABB7DA;
+}
+
+.tr_odd {
+	background: #fff;
+}
+
+.tr_odd:hover {
+	background: #ABB7DA;
+}
+
+.tr_even {
+	background: #E8E9ED;
+}
+
+.tr_even:hover {
+	background: #ABB7DA;
+}
+
+#chart_tab {
+	width: 55%;
+	height: 410px;
+	border-radius: 10px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #00A6FF;
+	/*background: rgb(119, 127, 150, 0.7);*/
+    background: #FFFFFF;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 99999;
+	cursor: pointer;
+	display: none;
+	/*display: block;*/
+}
+
+#chart_exit {
+	width: 40px;
+	height: 40px;
+	position: relative;
+	float: right;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+#chart_div {
+	width: 100%;
+	height: 350px;
+	position: relative;
+	float: left;
+}
+
+#chart_exit img {
+	display: block;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+
+/*The footer*/
+
+.footer {
+	width: 100%;
+	height: 100px;
+	position: relative;
+	z-index: 999;
+	background: #EDEDED;
+	top: 70px;
+}
+
+.footer_left {
+	width: 320px;
+	height: 60px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+
+.footer_left p {
+	color: #A8A7A4;
+	font-size: 17px;
+}
+
+.footer_right {
+	width: 150px;
+	height: 90px;
+	float: right;
+	margin-right: 17px;
+	background-image: url(../img/geo.png);
+	background-repeat: no-repeat;
+	background-size: 150px 90px;
+}

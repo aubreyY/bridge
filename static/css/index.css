@@ -1,0 +1,202 @@
+/*index html*/
+
+* {
+	font-family: "Arial";
+}
+
+html {
+	-ms-overflow-style: none;
+	overflow: -moz-scrollbars-none;
+}
+
+html::-webkit-scrollbar {
+	width: 0px;
+}
+
+
+/*The container*/
+
+.login {
+	width: 595px;
+	height: 973px;
+	background: #E7E7E7;
+	position: relative;
+	z-index: 999;
+}
+
+
+/*The login list*/
+
+.login_list {
+	width: 450px;
+	height: 95%;
+	background: #E7E7E7;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+/*The user*/
+
+.login_user {
+	width: 400px;
+	height: 10px;
+	background: #E7E7E7;
+}
+
+.login_name {
+	width: 75px;
+    height: 75px;
+	float: left;
+}
+
+.login_name img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.login_user span {
+	float: left;
+	position: relative;
+	bottom: -56px;
+	left: 10px;
+	font-size: 14px;
+	color: #999;
+}
+
+.login_font {
+	margin-top: 140px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #00A6FF;
+}
+
+.login_int {
+	width: 450px;
+	height: auto;
+	margin-top: 30px;
+}
+
+
+/*The Login Form*/
+
+.login_int input {
+	width: 400px;
+	height: 45px;
+	margin-top: 35px;
+	border: 3px solid #fff;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #999;
+}
+
+#F_btn{
+	padding: 3px 3px 3px 3px;
+	font-size: 14px;
+	background: #fff;
+	color: #999999;
+	margin-left: 85px;
+    margin-top: 10px;
+    border: none;
+}
+#F_btn:hover{
+	background: #00A6FF;
+	color: #fff;
+}
+.input{
+	height: 50px;
+	margin-top: 10px;
+}
+#pwd_btn{
+	background: #fff;
+	border-color: #ccc;
+	color: #333;
+}
+#pwd_btn:hover{
+	background: #00A6FF;
+	color: #fff;
+}
+#exit_btn:hover{
+	background: #00A6FF;
+	color: #fff;
+}
+/*The Submit Button*/
+
+#sub1 {
+	width: 200px;
+	height: 50px;
+	border-radius: 50px;
+	border: 2px solid #fff;
+	margin-top: 77px;
+	background: #fff;
+	cursor: pointer;
+	border-color: #00A6FF;
+	color: #00A6FF;
+	font-weight: bold;
+	font-size: 16px;
+	color: #999;
+	float: left;
+}
+
+#sub1:hover {
+	background: #00A6FF;
+	color: #fff;
+}
+
+
+/*The Regisiter Button*/
+
+#sub2 {
+	width: 200px;
+	height: 50px;
+	border-radius: 50px;
+	margin-top: 42px;
+	background: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 16px;
+	color: #999;
+	float: right;
+	text-align: center;
+	line-height: 50px;
+	margin-right: 35px;
+}
+
+#sub2:hover {
+	border-color: #00A6FF;
+	background: #00A6FF;
+	color: #fff;
+}
+
+
+/*The Title*/
+
+.login_tit {
+	width: 360px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+	margin-left: 170px;
+	font-size: 16px;
+	color: #999;
+}
+
+
+/*The background img*/
+
+.login_bg {
+	position: absolute;
+    right: 0;
+    top: 0;
+    width: 46%;
+    width: 69%;
+    height: 973px;
+}
+
+.login_bg img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
